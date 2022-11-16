@@ -39,3 +39,15 @@ a {
 .pick-part3:hover {
   filter: brightness(120%);
 }
+
+@media (max-width: 600px) {
+  .container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .pick-part2,
+  .pick-part3 {
+    margin-top: 15px;
+  }
+}
